@@ -1,0 +1,78 @@
+// Test 1
+// Tested with positive values.
+Initial balance cannot be less than 0.
+
+account1 balance: $50
+account2 balance: $25
+
+Enter deposit amount for account1: 50
+
+deposit 50 into account1 balance
+
+account1 balance: $100
+account2 balance: $25
+
+Enter deposit amount for account2: 75
+
+deposit 75 into account2 balance
+
+account1 balance: $100
+account2 balance: $100
+
+Enter withdrawal amount for account1: 99
+
+attempting to subtract 99 from account1 balance
+
+account1 balance: $1
+account2 balance: $100
+
+Enter withdrawal amount for account2: 90
+
+attempting to subtract 90 from account2 balance
+
+account1 balance: $1
+account2 balance: $10
+
+Initial balance cannot be less than 0.
+
+account1 balance: $50
+account2 balance: $25
+
+Enter deposit amount for account1: -1
+
+deposit -1 into account1 balance
+
+
+// Test 2
+// Tested with negative values.
+Credit amount cannot be less than 0.
+
+account1 balance: $50
+account2 balance: $25
+
+Enter deposit amount for account2: -100
+
+deposit -100 into account2 balance
+
+Credit amount cannot be less than 0.
+
+account1 balance: $50
+account2 balance: $25
+
+Enter withdrawal amount for account1: 150
+
+attempting to subtract 150 from account1 balance
+
+Debit amount exceeded account balance.
+
+account1 balance: $50
+account2 balance: $25
+
+Enter withdrawal amount for account2: -25
+
+attempting to subtract -25 from account2 balance
+
+Debit amount cannot be less than 0.
+
+account1 balance: $50
+account2 balance: $25
