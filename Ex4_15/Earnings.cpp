@@ -17,7 +17,6 @@ void Earnings::calculateEarnings() {
       	wage = 200.0 + 0.09 * sales; 
       	cout << "Salary is: $" << wage; 
       
-      
       	cout << "\n\nEnter sales in dollars (-1 to end): ";
       	cin >> sales;
    	} 
