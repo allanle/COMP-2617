@@ -1,0 +1,41 @@
+// Test 1
+Enter -1 to End.
+How much is 2 times 6 (-1 to End)? 12
+Excellent!
+How much is 1 times 7 (-1 to End)? 7
+Excellent!
+How much is 6 times 1 (-1 to End)? 6
+Excellent!
+How much is 5 times 7 (-1 to End)? 35
+Very good!
+How much is 8 times 9 (-1 to End)? 72
+Very good!
+How much is 5 times 3 (-1 to End)? 15
+Excellent!
+How much is 8 times 3 (-1 to End)? -1
+
+That's all for now. Bye.
+Press any key to continue . . .
+
+// Test 2
+Enter -1 to End.
+How much is 3 times 2 (-1 to End)? 1
+Wrong. Try once more.
+?1
+No. Please try again.
+?1
+No. Keep trying.
+?1
+Don't give up!
+?1
+Wrong. Try once more.
+?1
+Wrong. Try once more.
+?1
+No. Keep trying.
+?6
+Nice work!
+How much is 8 times 8 (-1 to End)? -1
+
+That's all for now. Bye.
+Press any key to continue . . .
