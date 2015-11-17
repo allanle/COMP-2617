@@ -1,21 +1,10 @@
-#include <iostream>
+	#include <iostream>
 #include <iomanip>
-#include <array>
+#include <vector>
 
 using namespace std;
 
 int main() {
-<<<<<<< HEAD
-	const int MAX = 100; // Maximum input range.
-	const int MIN = 10; // Minimum input range.
-	const int ARRAY_MAX = 20; // Maximum array size.
-	int input = 0; // User input.
-	int positionInTheArray = -1; // The array position.
-	bool exists = false; // Set a flag for unique number
-	array<int, ARRAY_MAX> numbers; // Array number storage
-	
-	for(int i = 1; i <= ARRAY_MAX; i++) {		
-=======
 	const int MAX = 100;
 	const int MIN = 10;
 	const int ARRAY_MAX = 20;
@@ -23,13 +12,12 @@ int main() {
 	int input = 0;
 	int positionInTheArray = -1;
 	bool exists;
-	array<int, ARRAY_MAX> numbers;
+	vector<int> numbers;
 	
 	for(int i = 1; i <= ARRAY_MAX; i++) {
 		
 		exists = false;
 		
->>>>>>> 79a009b6346fd16db2fd5bd55f29d7a19854224d
 		cout << "\nEnter # " << i << " : ";
 		cin >> input;
 		
@@ -50,14 +38,14 @@ int main() {
 		}
 		
 		if(!exists) {
-			numbers[++positionInTheArray] = input;
+			numbers.push_back(input);
 			cout << "The number: " << input << " is unique" << endl;
 		}
 	}
 	
 	cout << "\n\nThe unique numbers are:\n\n";
 	
-	for(int k = 0; k <= positionInTheArray; k++) {
+	for(int k = 0; k <= numbers.size(); k++) {
 		cout << setw(6) << numbers[k];
 		if(k % 5 == 4) {
 			cout << '\n';
